@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cyber-cyan: #00f3ff;
+  --color-cyber-magenta: #ff00ff;
+  --color-cyber-yellow: #f3e600;
+  --color-dark-void: #020205;
+  --color-glass: rgba(255, 255, 255, 0.03);
+  
+  --font-tech: "Space Grotesk", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-dark-void text-slate-100 font-tech selection:bg-cyber-cyan selection:text-black;
+  }
+}
+
+/* Grille animée en fond */
+.bg-neural-grid {
+  background-image: 
+    radial-gradient(circle at 2px 2px, rgba(0, 243, 255, 0.05) 1px, transparent 0);
+  background-size: 30px 30px;
+}
+
+/* Effet de scan laser qui passe sur l'écran */
+.laser-beam {
+  background: linear-gradient(90deg, transparent, rgba(0, 243, 255, 0.2), transparent);
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  animation: scanVertical 4s linear infinite;
+}
+
+@keyframes scanVertical {
+  0% { top: 0% }
+  100% { top: 100% }
+}
+
+.cyber-border {
+  clip-path: polygon(0 0, 95% 0, 100% 5%, 100% 100%, 5% 100%, 0 95%);
+}
