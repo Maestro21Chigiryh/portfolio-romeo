@@ -4,11 +4,11 @@ import { ChevronRight, Terminal, Cpu } from "lucide-react";
 
 export const Experience = () => {
   return (
-    <section className="py-12 px-6 max-w-6xl mx-auto">
+    <section className="py-24 px-6 max-w-7xl mx-auto">
       {/* Header compact */}
       <div className="flex items-center justify-between mb-10 border-b border-white/10 pb-4">
         <h2 className="text-3xl font-black flex items-center gap-3">
-          <span className="bg-cyber-cyan text-black px-2">03</span>
+          <span className="bg-cyber-cyan text-black px-2">02</span>
           <span className="tracking-tighter uppercase">EXPERIENCES</span>
         </h2>
         <div className="hidden md:flex items-center gap-2 text-[10px] font-mono text-cyber-cyan opacity-50">

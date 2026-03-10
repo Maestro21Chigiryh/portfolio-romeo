@@ -40,3 +40,7 @@
 .cyber-border {
   clip-path: polygon(0 0, 95% 0, 100% 5%, 100% 100%, 5% 100%, 0 95%);
 }
+
+html {
+  scroll-behavior: smooth;
+}

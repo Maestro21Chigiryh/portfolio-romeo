@@ -80,3 +80,39 @@ export const DATA = {
     }
   ]
 };
+
+export const PROJECTS = [
+  {
+    id: "01",
+    title: "RESCUE",
+    subtitle: "Système de triage médical intelligent basé sur l'analyse visuelle en contexte d'urgence",
+    description: "Plateforme d'urgence exploitant le Deep Learning pour analyser l'état des patients (postures, blessures, conscience) et un Système Multi-Agents (SMA) pour automatiser la priorisation des soins en contexte critique.",
+    features: ["Détection de posture & conscience", "Priorisation SMA", "Fine-tuning modèles DL", "Architecture Multi-tier"],
+    tech: ["Python", "TensorFlow", "OpenCV", "Flask", "MongoDB"],
+    video: "https://res.cloudinary.com/dwlrfcu3x/video/upload/v1773129020/rescue_hun62m.mp4", 
+    github: "https://github.com/Maestro21Chigiryh/RESCUE",
+    status: "MISSION_COMPLETED"
+  },
+  {
+    id: "02",
+    title: "Learn Maths With AI",
+    subtitle: "Apprentissage ludique des mathématiques par l'IA",
+    description: "Application éducative interactive utilisant l'Intelligence Artificielle pour adapter les défis mathématiques au niveau de l'enfant, rendant l'apprentissage intuitif et personnalisé via le jeu.",
+    features: ["Adaptation de difficulté IA", "Interface interactive", "Suivi de progression", "Gamification"],
+    tech: ["Python", "Flask", "OpenCV"],
+    video: "https://res.cloudinary.com/dwlrfcu3x/video/upload/v1773128337/Learn_m1afix.mp4",
+    github: "https://github.com/Maestro21Chigiryh/malagasy-face-classifier",
+    status: "MISSION_COMPLETED"
+  },
+  {
+    id: "03",
+    title: "Qui est Malagasy ?",
+    subtitle: "Classification faciale par Deep Learning",
+    description: "Système de reconnaissance et de classification basé sur l'analyse de traits faciaux, conçu pour identifier et catégoriser les caractéristiques morphologiques dans un contexte de diversité phénotypique.",
+    features: ["Reconnaissance faciale", "Classification d'images", "Dataset personnalisé", "Optimisation modèles"],
+    tech: ["Python", "TensorFlow", "Keras", "OpenCV"],
+    video: "https://res.cloudinary.com/dwlrfcu3x/video/upload/v1773128062/gasy_fnforb.mp4",
+    github: "https://github.com/Maestro21Chigiryh/malagasy-id",
+    status: "MISSION_COMPLETED"
+  }
+];

@@ -52,7 +52,7 @@ export const Skills = () => {
     <section className="py-24 px-6 max-w-7xl mx-auto">
       <div className="mb-12">
         <h2 className="text-3xl font-black flex items-center gap-3">
-          <span className="bg-cyber-cyan text-black px-2 text-2xl font-mono">02</span>
+          <span className="bg-cyber-cyan text-black px-2 text-2xl font-mono">01</span>
           SKILLS
         </h2>
         <div className="h-[1px] w-full bg-gradient-to-r from-cyber-cyan/50 to-transparent mt-2" />

@@ -1,4 +1,3 @@
-// src/components/sections/Hero.tsx
 import { motion } from "framer-motion";
 import { DATA } from "../../data/portfolio";
 import { Github, Linkedin, Mail, Phone, MapPin } from "lucide-react";
@@ -17,7 +16,7 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="inline-block px-3 py-1 border border-cyber-cyan text-cyber-cyan text-[20px] tracking-[0.4em] uppercase mb-5 bg-cyber-cyan/5">
-           Bonjour , Je suis :
+           Bonjour, Je suis 
           </div>
           <h1 className="text-4xl md:text-6xl font-black tracking-tighter text-white mb-6 leading-[0.9]">
             {DATA.name.split(' ').slice(0, 3).join(' ')} <br/>
